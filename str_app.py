@@ -42,7 +42,7 @@ def main():
         st.image(img_B)
         st.text("Probability of Type B:" + str(p_lr[:,0]))
 
-    keys = ["virtual", "reality", "vr"]
+    keys = ["virtual", "reality", "VR", "Virtual"]
     if input_txt == " ":
         pass
     elif set(keys).isdisjoint(set(input_txt.split())):
